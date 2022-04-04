@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./formstyle.css">
+
+</head>
+<body>
+
+    <!-- <section class="image_container"> -->
+        <section class="gradient">
+            <div class="image"></div>
+        </section>
+    <!-- </section> -->
+    
+    <div class="heading">
+        <p>Feedback Form</p>
+    </div>
+    
+    <div class="form_container">
+    <form action="" method="get" class="feedback form_wrapper">
+
+        <div class="form_elem">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="input_text" required>
+        </div>
+        
+        <div class="form_elem">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" class="input_text" required>
+        </div>
+
+        <div class="form_elem">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" class="input_text" hidden required>
+        </div>
+
+        <div class="form_elem">
+            <label for="emotions">Emotions</label>
+            <div class="checkbox_align">
+                <div><input type="checkbox" name="angry" id="angry" class="input_checkbox"> Angry </div>
+                <div><input type="checkbox" name="sad" id="sad" class="input_checkbox"> Sad </div>
+                <div><input type="checkbox" name="happy" id="happy" class="input_checkbox"> Happy </div>
+            </div>
+        </div>
+
+        <div class="form_elem">
+            <label for="feedback">Feedback</label>
+            <input type="text" name="feedback" minlength="20" maxlength="150" id="feedback" class="input_text" required>
+        </div>
+
+        <div class="form_elem submit">
+            <input type="submit" value="Submit">
+        </div>
+    
+    </form>
+    </div>
+
+
+</body>
+</html>
