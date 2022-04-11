@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Practise Form</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./pracformstyle.css">
+  </head>
+  <body>
+
+    <div class="heading">
+      <p class="heading_text">Form</p>
+    </div>
+
+    <div class="form_container">
+      <center>
+      <form class="form" action="" method="get">
+        <div class="form_elem">
+          <p class="type">Text Box</p>
+          <label for="username" class="label">Username</label>
+          <input type="text" name="username" class="input text">
+
+          <label for="password">Password</label>
+          <input type="password" name="password" class="input text">
+        </div>
+
+        <div class="form_elem">
+          <p class="type">Radio Buttons</p>
+          <label for="" class="label">Gender</label>
+          <div class="">
+            <input type="radio" name="male" class="input radio"> Male
+          </div>
+          <div class="">
+            <input type="radio" name="female" class="input radio"> Female
+          </div>
+        </div>
+
+        <div class="form_elem">
+          <p class="type">checkbox</p>
+          <label for="" class="label">Hobbies</label>
+          <div class="">
+            <input type="checkbox" name="sleep" class="input checkbox"> Sleep
+          </div>
+          <div class="">
+            <input type="checkbox" name="eat" class="input checkbox"> Eat
+          </div>
+          <div class="">
+            <input type="checkbox" name="repeat" class="input checkbox"> Repeat
+          </div>
+        </div>
+
+        <div class="form_elem">
+          <p class="type">Select Tag</p>
+          <label for="" class="label">Languages</label>
+          <select size="5" multiple>
+            <option name="c" value="c">C</option>
+            <option name="c++" value="c++">C++</option>
+            <option name="java" value="java">Java</option>
+          </select>
+        </div>
+
+        <div class="form_elem">
+          <p class="type">File Upload</p>
+          <label for="" class="label">File</label>
+          <input type="file" name="file" class="input file">
+        </div>
+
+        <div class="form_elem">
+          <p class="type">Button</p>
+          <div class="bt_container"><input class="input button" type="submit" name="submit" value="Submit"></div>
+          <div class="bt_container"><input class="input button" type="reset" value="Reset"></div>
+          <div class="bt_container"><input class="input button" type="button" name="button" value="Click Me!"></div>
+          <div class="bt_container"><input class="input image" type="image" name="imagebutton" src="D:\M87\College-main\feedback_2.jpg" width="300px" height="300px"></div>
+        </div>
+
+
+      </form>
+      </center>
+    </div>
+
+  </body>
+</html>
